@@ -336,7 +336,7 @@
       height: auto;
     }
   }
-  @media (min-width: 998px) and (max-width: 1280px) {
+  @media (min-width: 998px) and (max-width: 1440px) {
     body {
       font-size: 14px;
       line-height: 1.6;
