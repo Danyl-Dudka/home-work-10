@@ -1,0 +1,424 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/Roboto-Regular.ttf);
+  }
+  body {
+    background-color: #eeeff1;
+    width: 1920px;
+    margin: 0 auto;
+    font-family: "Roboto";
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    width: 611px;
+    height: 61px;
+    margin-top: 79px;
+    margin-left: 399px;
+    box-sizing: border-box;
+  }
+  header nav ul li a {
+    color: inherit;
+    text-decoration: none;
+  }
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .main_page {
+    margin-top: 162px;
+    margin-left: 435px;
+  }
+  
+  .main_page h1 {
+    width: 541px;
+    height: 45px;
+    font-size: 48px;
+    color: black;
+  }
+  
+  .main_page p {
+    margin-top: 60px;
+    width: 500px;
+    height: 67px;
+    font-size: 16px;
+    color: #727272;
+  }
+  
+  .main_page button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .about_me {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 282px;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  .about_me h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #000000;
+    margin-top: 125px;
+    font-size: 32px;
+  }
+  
+  .about_me p {
+    color: #727272;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 500px;
+    margin-left: 699px;
+  }
+  
+  .my_works {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 250px;
+    width: 100%;
+    background-color: #34547A;
+    align-items: center;
+  }
+  
+  .my_works img {
+    width: 141px;
+    height: 50px;
+  }
+  
+  .my_process {
+    height: 1004px;
+    width: 100%;
+  }
+  
+  .my_process h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .my_process p {
+    color: #727272;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 500px;
+    margin-left: 720px;
+  }
+  
+  .my_process img {
+    width: 1110px;
+    height: 600px;
+    margin-top: 57px;
+    margin-left: 400px;
+  }
+  
+  .contacts {
+    height: 151px;
+    width: 100%;
+    background-color: #34547A;
+  }
+  
+  .contacts h1 {
+    margin-left: 400px;
+    color: white;
+    font-size: 21px;
+    padding-top: 50px;
+  }
+  
+  .contacts p {
+    margin-left: 400px;
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 375px) and (max-width: 786px) {
+    body {
+      font-size: 14px;
+      line-height: 1.6;
+      width: 100%;
+      margin: 0 0;
+    }
+    header nav ul {
+      align-items: center;
+      font-size: 10px;
+      gap: 15px;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    .main_page {
+      margin-top: 80px;
+      margin-left: 0;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .main_page h1 {
+      font-size: 24px;
+      width: auto;
+      height: auto;
+    }
+    .main_page p {
+      font-size: 14px;
+      width: auto;
+      height: auto;
+    }
+    .main_page button {
+      width: 200px;
+      height: 50px;
+    }
+    .about_me {
+      margin-top: 50px;
+      padding: 0 20px;
+      height: 200px;
+    }
+    .about_me h1 {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    .about_me p {
+      margin-top: 20px;
+      width: auto;
+      height: auto;
+      margin-left: 0;
+    }
+    .my_works {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .my_process {
+      height: 500px;
+    }
+    .my_process h1 {
+      font-size: 24px;
+      margin-left: 0px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .my_process p {
+      margin-left: 0px;
+      font-size: 14px;
+      text-align: center;
+      width: auto;
+      height: auto;
+    }
+    .my_process img {
+      margin-left: 0px;
+      align-items: center;
+      width: 375px;
+      height: auto;
+      margin-top: 100px;
+    }
+    .contacts h1 {
+      margin-left: 20px;
+      margin-top: 50px;
+      font-size: 24px;
+      width: auto;
+      height: auto;
+    }
+    .contacts p {
+      margin-left: 20px;
+      font-size: 14px;
+      width: auto;
+      height: auto;
+    }
+  }
+  @media (min-width: 786px) and (max-width: 998px) {
+    body {
+      font-size: 14px;
+      line-height: 1.6;
+      width: 100%;
+      margin: 0;
+    }
+    header nav ul {
+      align-items: center;
+      gap: 50px;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+    .main_page {
+      margin-top: 80px;
+      margin-left: 0;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .main_page h1 {
+      font-size: 36px;
+      width: auto;
+      height: auto;
+    }
+    .main_page p {
+      font-size: 20px;
+      width: auto;
+      height: auto;
+    }
+    .about_me {
+      height: 300px;
+      margin-top: 50px;
+      padding: 0 20px;
+    }
+    .about_me h1 {
+      font-size: 36px;
+      padding-top: 50px;
+    }
+    .about_me p {
+      margin-top: 50px;
+      font-size: 20px;
+      width: auto;
+      height: auto;
+      margin-left: 0;
+    }
+    .my_works {
+      flex-wrap: wrap;
+      gap: 100px;
+    }
+    .my_process {
+      height: 800px;
+    }
+    .my_process h1 {
+      font-size: 36px;
+      margin-left: 0px;
+      margin-top: 80px;
+      text-align: center;
+    }
+    .my_process p {
+      margin-left: 0px;
+      font-size: 20px;
+      text-align: center;
+      width: auto;
+      height: auto;
+    }
+    .my_process img {
+      margin-left: 0px;
+      width: 800px;
+      height: auto;
+      margin-top: 100px;
+    }
+    .contacts h1 {
+      margin-left: 20px;
+      margin-top: 0px;
+      font-size: 30px;
+      width: auto;
+      height: auto;
+    }
+    .contacts p {
+      margin-left: 13px;
+      margin-top: 0px;
+      font-size: 20px;
+      width: auto;
+      height: auto;
+    }
+  }
+  @media (min-width: 998px) and (max-width: 1280px) {
+    body {
+      font-size: 14px;
+      line-height: 1.6;
+      width: 100%;
+      margin: 0;
+    }
+    header nav ul {
+      align-items: center;
+      gap: 50px;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+    .main_page {
+      margin-top: 80px;
+      margin-left: 0;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .main_page h1 {
+      font-size: 36px;
+      width: auto;
+      height: auto;
+    }
+    .main_page p {
+      font-size: 20px;
+      width: auto;
+      height: auto;
+    }
+    .about_me {
+      height: 300px;
+      margin-top: 50px;
+      padding: 0 20px;
+    }
+    .about_me h1 {
+      font-size: 36px;
+      padding-top: 50px;
+    }
+    .about_me p {
+      margin-top: 50px;
+      font-size: 20px;
+      width: auto;
+      height: auto;
+      margin-left: 0;
+    }
+    .my_works {
+      flex-wrap: wrap;
+      gap: 100px;
+    }
+    .my_process {
+      height: 800px;
+    }
+    .my_process h1 {
+      font-size: 36px;
+      margin-left: 0px;
+      margin-top: 80px;
+      text-align: center;
+    }
+    .my_process p {
+      margin-left: 0px;
+      font-size: 20px;
+      text-align: center;
+      width: auto;
+      height: auto;
+    }
+    .my_process img {
+      margin-left: 0px;
+      width: 800px;
+      height: auto;
+      margin-top: 100px;
+    }
+    .contacts h1 {
+      margin-left: 20px;
+      margin-top: 0px;
+      font-size: 30px;
+      width: auto;
+      height: auto;
+    }
+    .contacts p {
+      margin-left: 13px;
+      margin-top: 0px;
+      font-size: 20px;
+      width: auto;
+      height: auto;
+    }
+  }
